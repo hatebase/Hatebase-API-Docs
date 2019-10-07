@@ -2,9 +2,14 @@
 
 Please review this README for a general understanding of the API before proceeding into the version-specific documentation. If you need a basic step-by-step introduction to connecting, authenticating and basic data retrieval, check out [our blog post](https://hatebase.org/news/2018/12/11/getting-started-with-the-hatebase-api-v4-0).
 
+# Terms of Use
+
+Your use of the Hatebase API acknowledges your consent with Hatebase's [Terms of Use](https://hatebase.org/terms) and PROHIBITS REDISTRIBUTION of the data herein for any purpose, including but not limited to republication in any form, such as in public code repositories.
+
 # Versions
 
-- [v4.2](current/v4-3/overview.md) **Current**
+- [v4.4](current/v4-4/overview.md) **Current**
+- [v4.3](archived/v4-3/overview.md) Deprecated
 - [v4.2](archived/v4-2/overview.md) Deprecated
 - [v4.1](archived/v4-1/overview.md) Retired
 - [v4.0](archived/v4-0/overview.md) Retired
@@ -13,10 +18,6 @@ Please review this README for a general understanding of the API before proceedi
 - v1.0 Retired
 
 Note that decimal increments are backwards-compatible, whereas integer increments are not. In other words, an integration built for v4.0 will work reliably with v4.1 (albeit without the extra features of 4.1) by simply changing the version number in the URL from 4.0 to 4.1 to avoid accessing the older deprecated version.
-
-# Terms of Use
-
-Your use of the Hatebase API acknowledges your consent with Hatebase's [Terms of Use](https://hatebase.org/terms) and prohibits redistribution of the data herein to any third-parties for any purpose, including but not limited to republication in any form, such as in public code repositories.
 
 # How It Works
 
