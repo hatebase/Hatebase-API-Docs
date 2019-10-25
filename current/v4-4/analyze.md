@@ -43,6 +43,11 @@ Note that the /analyze endpoint is intended for use with short user posts, as in
     <td>CA</td>
     <td>2-character ISO 3166-2 code. Please provide if known, since this increases the accuracy of the analysis.</td>
   </tr>
+  <tr>
+    <td>broadest_possible_search</td>
+    <td>false</td>
+    <td>Incurs higher likelihood of false positives, and therefore defaults to false</td>
+  </tr>
 </table>
 
 ## Resultset
