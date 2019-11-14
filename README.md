@@ -92,6 +92,7 @@ Again, this simple result set is solely illustrative; there is no need for empty
 
 # Troubleshooting Common Mistakes
 
+- Are you subscribed to a plan? Has your plan request been approved?
 - Are you using the latest API version number in all your URLs, e.g. https://api.hatebase.org/{{VERSION-INCREMENT}}/authenticate ? Slightly old versions of the API deprecate but are still usable, while much older versions are retired and can no longer be queried.
 - Are you remembering to send your query as a POST rather than a GET? POST is more secure, but some tools (like Postman) default to GET.
 - Are you remembering to send your input parameters within the body of your query, rather than in the header?
