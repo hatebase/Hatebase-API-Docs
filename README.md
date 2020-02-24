@@ -113,4 +113,4 @@ Failing to respect the daily query limit, repeatedly quering the same parameters
 
 # Please Contact Us
 
-Although every effort has been made to ensure that this documentation accurately reflects the operation of the API, please advise us if you discover any discrepancies.
+Although every effort has been made to ensure that this documentation accurately reflects the operation of the API, please [advise us](https://hatebase.org/contact) if you discover any discrepancies.
