@@ -9,13 +9,7 @@ Your use of the Hatebase API acknowledges your consent with Hatebase's [Terms of
 # Versions
 
 - [v4.4](current/v4-4/overview.md) **Current**
-- [v4.3](archived/v4-3/overview.md) Deprecated
-- [v4.2](archived/v4-2/overview.md) Deprecated
-- [v4.1](archived/v4-1/overview.md) Retired
-- [v4.0](archived/v4-0/overview.md) Retired
-- [v3.0](archived/v3-0/overview.md) Retired
-- [v2.0](archived/v2-0/overview.md) Retired
-- v1.0 Retired
+- [v4.3](archived/v4-3/overview.md) Retired
 
 Note that decimal increments are backwards-compatible, whereas integer increments are not. In other words, an integration built for v4.0 will work reliably with v4.1 (albeit without the extra features of 4.1) by simply changing the version number in the URL from 4.0 to 4.1 to avoid accessing the older deprecated version.
 
@@ -90,9 +84,14 @@ The token provided in the authentication phase is used as an input parameter to 
 
 Again, this simple result set is solely illustrative; there is no need for empty key-value pairs.
 
-# Troubleshooting Common Mistakes
+# Setup Tutorial
 
-- Are you subscribed to a plan? Has your plan request been approved?
+A "quick start" tutorial is available [here](tutorial/overview.md) to get you up and running.
+
+# Troubleshooting
+
+- Are you subscribed to a plan?
+- Has your plan request been approved?
 - Are you using the latest API version number in all your URLs, e.g. https://api.hatebase.org/{{VERSION-INCREMENT}}/authenticate ? Slightly old versions of the API deprecate but are still usable, while much older versions are retired and can no longer be queried.
 - Are you remembering to send your query as a POST rather than a GET? POST is more secure, but some tools (like Postman) default to GET.
 - Are you remembering to send your input parameters within the body of your query, rather than in the header?
