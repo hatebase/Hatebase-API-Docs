@@ -104,7 +104,7 @@ Access to the API is limited by your plan's maximum daily query limit. It is str
 
 # Acceptable Usage
 
-Failing to respect the daily query limit, repeatedly quering the same parameters (rather than saving the results locally), or querying the API in user real-time are all prohibited by Hatebase's [Terms of User](https://hatebase.org/terms) and can result in users being banned temporarily or permanently, or receiving a lower query threshold. For assistance architecting a mutually performance-optimized data integration, please contact us.
+Failing to respect the daily query limit, repeatedly quering the same parameters (rather than saving the results locally), or querying the API in user real-time are all prohibited by Hatebase's [Terms of Use](https://hatebase.org/terms) and can result in users being banned temporarily or permanently, or receiving a lower query threshold. For assistance architecting a mutually performance-optimized data integration, please contact us.
 
 # Errors and Warnings
 
