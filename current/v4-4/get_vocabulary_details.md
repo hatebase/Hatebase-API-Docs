@@ -6,7 +6,7 @@ https://api.hatebase.org/4-4/get_vocabulary_details
 
 ## Description
 
-The /get_vocabulary endpoint allows users to download more detail on a specific term in Hatebase's lexicon of multilingual hate speech.
+The /get_vocabulary_details endpoint allows users to download more detail on a specific term in Hatebase's lexicon of multilingual hate speech.
 
 ## Input Parameters
 
